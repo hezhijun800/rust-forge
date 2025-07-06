@@ -1,52 +1,52 @@
-# Rust Forge
-Welcome to the Rust Forge! Rust Forge serves as a repository of supplementary
-documentation useful for members of [The Rust Programming Language]. If
-you find any mistakes, typos, or want to add to the Rust Forge, feel free to
-file an issue or PR [on GitHub].
+#铁锈锻造厂
+欢迎来到铁锈锻造厂！ 铁锈锻造厂是补充品的仓库
+对成员有用的文件[rust程序设计语言]。如果
+如果您发现任何错误，打字错误，或想添加到生锈的锻造厂，请随意
+提交问题或PR[在GitHub上].
 
-[The Rust Programming Language]: https://rust-lang.org
-[on GitHub]: https://github.com/rust-lang/rust-forge
+[生锈编程语言]: https://rust-lang.org
+[在GitHub上]: https://github.com/rust-lang/rust-forge
 
-### Help Wanted
+###需要帮助
 
-Want to contribute to Rust, but don't know where to start? Check out [this guide](./how-to-start-contributing.md).
+想为Rust做贡献，但不知道从哪里开始？查看[本指南](./如何启动contribut.md).
 
-### Current Release Versions
+###当前版本
 
-<!-- All `<span id="..."></span>` elements are filled at run time when a reader
-visits the website. Please refer to `js/index.js` for how these values
-are generated.
+<！ --所有'<跨度身份标识="..."></跨度>'元素都会在执行阶段填满，当读取器
+访问网站。请参阅'JS/index.js'了解这些值
+生成的。
 
-Avoid changing the "Current Release Versions" without also updating the selector
-in `js/index.js`.
+避免在不更新选择器的情况下更改“当前版本”
+在"js/index.js"中.
 -->
 
-Channel    | Version | Will be stable on | Will branch from master on |
------------|---------|-------------------|----------------------------|
-Stable     | <span id="stable-version"></span>  | <span id="stable-release-date"></span>  | <span id="stable-branch-date"></span>
-Beta       | <span id="beta-version"></span>    | <span id="beta-release-date"></span>    | <span id="beta-branch-date"></span>
-Nightly    | <span id="nightly-version"></span> | <span id="nightly-release-date"></span> | <span id="nightly-branch-date"></span>
-Nightly +1 | <span id="next-version"></span>    | <span id="next-release-date"></span>    | <span id="next-branch-date"></span>
+渠道|版本|将稳定在|将从掌握分支到|
+-------------|------------|-------------------|----------------------------|
+稳定的|<跨度身份标识="稳定版本"></跨度>|<跨度身份标识="稳定发布日期"></跨度>|<跨度身份标识="稳定-分行-日期"></跨度>
+β|<跨度身份标识="beta版"></跨度>|<跨度身份标识="beta版发布日期"></跨度>|<跨度身份标识="beta-分行-日期"></跨度>
+每晚|<跨度身份标识="每晚版"></跨度>|<跨度身份标识="夜间发布日期"></跨度>|<跨度身份标识="夜间分行日期"></跨度>
+每晚+1|<跨度身份标识="下一版本"></跨度>|<跨度身份标识="下次发布日期"></跨度>|<跨度身份标识="下一支行日期"></跨度>
 
-See the [release process](./release/process.md) documentation for details on
-what happens in the days leading up to a release.
+请参阅[释放过程](./release/process.md)有关详细信息的文档
+在释放之前的日子里发生了什么。
 
-### No Tools Breakage Week
-To ensure the beta release includes all the tools, no [tool breakages] are
-allowed in the week before the beta cutoff (except for nightly-only tools).
+###无工具中断周
+为确保beta版包含所有工具，请不要[工具破损]是
+在测试截止前一周允许使用(仅限夜间使用的工具除外)。
 
-Beta Cut | No Breakage Week
----------|-----------------
-<span id="nightly-cycle"></span> | <span id="nightly-timespan"></span>
-<span id="next-cycle"></span>    | <span id="next-timespan"></span>
+β切割|无破损周
+-------------|-----------------
+<跨度身份标识="夜间循环"></跨度>|<跨度身份标识="夜间时间跨度"></跨度>
+<跨度身份标识="下一个周期"></跨度>|<跨度身份标识="下一个时间跨度"></跨度>
 
-[tool breakages]: ./infra/toolstate.md
+[工具破损]: ./infra/toolstate.md
 
-### External Links
+###外部链接
 
-* [Bibliography] of research papers and other projects that influenced Rust.
-* [Rust Pontoon] is a translation management system used to localize the Rust
-  website.
+* [参考书目]研究论文和其他影响鲁斯特的项目。
+* [生锈浮筒]是一个翻译管理系统，用于本地化Rust
+网站。
 
-[Bibliography]: https://rustc-dev-guide.rust-lang.org/appendix/bibliography.html
-[Rust Pontoon]: https://pontoon.rust-lang.org/
+[参考书目]: https://rustc-dev-guide.rust-lang.org/appendix/bibliography.html
+[生锈浮筒]: https://pontoon.rust-lang.org/
